@@ -4,4 +4,3 @@ Ini juga test
 Ini juga
 testing kedua =
 testt
-halo

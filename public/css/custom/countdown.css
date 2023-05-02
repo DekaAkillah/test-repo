@@ -1,0 +1,61 @@
+.countdown-container {
+    align-items: center;
+    height: 120px;
+    background: linear-gradient(270deg, #893ff8 0%, #e81580 100%);
+}
+
+.titleTimer {
+    display: block;
+    float: left;
+    font-size: 0.8em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0.5em;
+}
+
+.countdownTimer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 0.25em;
+}
+
+.countdownTimer .countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.countdownTimer .countdown:not(:last-child) {
+    margin-right: 12px;
+}
+
+.countdownTimer .countdown span {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.2em;
+    text-align: center;
+    letter-spacing: 0.5px;
+    align-self: center;
+}
+
+.countdownTimer .countdown p {
+    font-weight: normal;
+    font-size: 0.75em;
+    line-height: 1em;
+    text-align: center;
+    letter-spacing: 0.5px;
+    align-self: center;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+}
+
+.countdownTimer .break {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-weight: bold;
+    letter-spacing: 1em;
+}

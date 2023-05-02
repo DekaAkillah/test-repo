@@ -1,0 +1,22 @@
+#dashboard {
+    user-select: none;
+}
+
+#dashboard input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+#dashboard .panel {
+    background-color: rgba(12, 13, 14, 0.8);
+}
+
+#countdownContainer {
+    min-height: 10em;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}

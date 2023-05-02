@@ -1,0 +1,14 @@
+.border-dash {
+    border: 1px dashed #393838;
+}
+
+div.filepond--drop-label {
+    background: #0d0d0e;
+    color: #aaa;
+    height: 10em;
+    border: none;
+}
+
+div.filepond--item-panel {
+    background: #0d0d0e;
+}

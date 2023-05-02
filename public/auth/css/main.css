@@ -1,0 +1,363 @@
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+/*---------------------------------------------*/
+a {
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #6675df;
+}
+
+/*---------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+p {
+    font-family: "Red Hat Display";
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+ul,
+li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+label {
+    display: block;
+    margin: 0;
+}
+
+/*---------------------------------------------*/
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+iframe {
+    border: none !important;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ utility ]*/
+
+/*==================================================================
+[ Text ]*/
+.txt1 {
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    line-height: 1.4;
+    color: #e279da;
+}
+
+.txt2 {
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    line-height: 1.4;
+    color: #e279da;
+}
+
+.txt2 a {
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.txtreg {
+    font-family: "Red Hat Display";
+    font-size: 20px;
+    line-height: 1.4;
+    color: #999999;
+}
+
+.txt2 {
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    line-height: 1.4;
+    color: #999999;
+}
+
+/*==================================================================
+[ Size ]*/
+.size1 {
+    width: 355px;
+    max-width: 100%;
+}
+
+.size2 {
+    width: calc(100% - 43px);
+}
+
+/*==================================================================
+[ Background ]*/
+.bg1 {
+    background: #3b5998;
+}
+.bg2 {
+    background: #1da1f2;
+}
+.bg3 {
+    background: #cd201f;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-login100 {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+}
+
+/*==================================================================
+[ login more ]*/
+.login100-more {
+    width: calc(100% - 560px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.login100-more::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/*==================================================================
+[ Form ]*/
+
+.login100-form {
+    width: 560px;
+    min-height: 100vh;
+    display: block;
+    background-color: #0c0d0e;
+    padding: 85px 55px 55px 55px;
+}
+
+.login100-form-title {
+    width: 100%;
+    display: block;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/*==================================================================
+[ Input ]*/
+
+input {
+    padding: 0.6em 1em !important;
+}
+
+/*==================================================================
+[ Restyle Checkbox ]*/
+
+.input-checkbox100 {
+    display: none;
+}
+
+.label-checkbox100 {
+    font-family: "Red Hat Display";
+    font-size: 13px;
+    color: #999999;
+    line-height: 1.4;
+
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+}
+
+.label-checkbox100::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: transparent;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    background: #fff;
+    border: 1px solid #6675df;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.input-checkbox100:checked + .label-checkbox100::before {
+    color: #6675df;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #893ff8 0%, #e81580 100%);
+
+    font-family: "Red Hat Display";
+    font-weight: bold;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login100-form-btn:hover {
+    background: linear-gradient(270deg, #893ff8 0%, #e81580 100%);
+    opacity: 0.8;
+}
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 992px) {
+    .login100-form {
+        width: 50%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .login100-more {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .login100-form {
+        width: 100%;
+    }
+
+    .login100-more {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .login100-form {
+        padding-left: 2px;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+}

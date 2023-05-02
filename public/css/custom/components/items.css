@@ -1,0 +1,17 @@
+.x-button {
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -o-transition: opacity 0.2s;
+}
+
+.member-item-small {
+    cursor: default;
+}
+
+.member-item-small:hover > .x-button {
+    opacity: 1;
+}

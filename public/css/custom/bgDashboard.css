@@ -1,0 +1,48 @@
+.wm2 {
+    width: 100%;
+    position: relative;
+    font-size: 200px;
+    text-align: center;
+    font-weight: bold;
+    top: 75px;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.wm2.dark {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.wm2.dark.wm-border2 {
+    font-size: 250px;
+    width: max-content;
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.2);
+}
+
+.de-images2 {
+    position: relative;
+    width: 100%;
+}
+
+.di-small2 {
+    opacity: 10%;
+    position: fixed;
+    width: 38em;
+    height: 33em;
+    object-fit: cover;
+    top: 50%;
+    left: 61%;
+    z-index: auto;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bg-tint-dark {
+    background-color: rgba(12, 13, 14, 0.8);
+}

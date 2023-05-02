@@ -1,0 +1,46 @@
+.c-input-outlined {
+    width: 100%;
+    padding: 1.2em 1em;
+    font-size: 1.2em;
+    color: rgba(170, 170, 170);
+    background: none;
+    border: 1px solid rgba(57, 56, 56);
+}
+
+.c-input-outlined:focus {
+    color: white;
+    background: none;
+    border-color: #ec167f;
+}
+
+.c-input-outlined:read-only {
+    color: white;
+    background: none;
+}
+
+.c-input-outlined.code {
+    text-transform: uppercase;
+}
+.c-input-outlined.code::placeholder {
+    text-transform: none;
+}
+.c-input-stroke {
+    width: 100%;
+    padding: 1.2em 1em;
+    font-size: 1.2em;
+    color: rgba(170, 170, 170);
+    background: none;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(57, 56, 56);
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.c-input-stroke:focus {
+    color: white;
+    background: none;
+    border-color: #ec167f;
+}
